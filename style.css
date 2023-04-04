@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.middle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 20px 20px 0px hsl(217, 54%, 9%);
+}
+
+.card-content {
+    width: 280px
+}
+
+img {
+    width: 280px;
+    border-radius: 6px;
+}
+
+.card-title {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+.card-subtitle {
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.etherium-color {
+    color: hsl(178, 100%, 50%);
+}
+
+.etherium-text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.etherium-text img {
+    width: 10px;
+}
+
+div {
+    font-family: 'outfit';
+}
+
+.divider {
+    background-color: hsl(215, 32%, 27%);
+    height: 0.5px;
+}
+
+.avatar {
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.attribution {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.attribution span {
+    color: hsl(0, 0%, 100%);
+}
