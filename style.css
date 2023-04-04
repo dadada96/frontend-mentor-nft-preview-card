@@ -20,9 +20,39 @@ body {
     width: 280px
 }
 
-img {
+.card-content {
+    width: 280px;
+}
+
+.boxImg {
+    position: relative;
+}
+
+.boxImg img {
     width: 280px;
     border-radius: 6px;
+}
+
+.boxImg:hover .boxImg-hover {
+    display: block;
+}
+
+.boxImg-hover {
+    display: none;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.boxImg-hover img {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card-title {
@@ -71,4 +101,9 @@ div {
 
 .attribution span {
     color: hsl(0, 0%, 100%);
+}
+
+.pointer:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
